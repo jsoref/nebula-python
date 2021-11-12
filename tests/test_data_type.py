@@ -532,7 +532,7 @@ class TestPath(TestBaseCase):
         assert relationships == path.relationships()
 
 
-class TestDatesetWrapper(TestBaseCase):
+class TestDataSetWrapper(TestBaseCase):
     def test_all(self):
         data_set_wrapper1 = DataSetWrapper(self.get_data_set())
         data_set_wrapper2 = DataSetWrapper(self.get_data_set())
